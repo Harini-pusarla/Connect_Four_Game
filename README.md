@@ -32,7 +32,7 @@ horizontally, vertically, or diagonally to win.
   
   Turn Tracking: turnCounter determines the current player.
 
- # Functions:
+ ### Functions:
   printGameBoard(): Renders the board with emojis.
   
   modifyTurn(row, column, player): Updates the board with the player’s piece.
