@@ -3,7 +3,7 @@
 Connect Four is a two-player game on a 6x7 grid where players take turns dropping discs, aiming to connect four in a row 
 horizontally, vertically, or diagonally to win.
 
-Game Rules:
+## Game Rules:
 1.Players: 2 (Player 🟣 and Player 🟢)
 2.Turn-based: Players take turns to drop one disc per turn.
 3.Board size: 6 rows × 7 columns (standard Connect Four dimensions).
@@ -17,7 +17,7 @@ Game Rules:
 8.Draw Condition: If the board is full and no player wins, the game ends in a draw.
 9.Occupied Check: If the chosen cell is already filled, the player is prompted to choose again.
 
-Game Logic Summary:
+## Game Logic Summary:
   Game Board: Implemented as a 2D list (gameBoard), 6 rows × 7 columns.
   Column Mapping: A–G mapped to indices 0–6 via possibleLetters list.
   Turn Tracking: turnCounter determines the current player.
