@@ -27,10 +27,14 @@ horizontally, vertically, or diagonally to win.
 
 ## Game Logic Summary:
   Game Board: Implemented as a 2D list (gameBoard), 6 rows × 7 columns.
+  
   Column Mapping: A–G mapped to indices 0–6 via possibleLetters list.
+  
   Turn Tracking: turnCounter determines the current player.
 
-Functions:
+ # Functions:
   printGameBoard(): Renders the board with emojis.
+  
   modifyTurn(row, column, player): Updates the board with the player’s piece.
+  
   checkWin(): Scans the board for four connected pieces.
